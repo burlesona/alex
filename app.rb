@@ -6,6 +6,7 @@ module Alex
       serve 'client/templates/application.html'
     end
 
+    private
     def serve(path)
       File.read path
     end

@@ -7,6 +7,7 @@ gem 'hobbit'
 gem 'sprockets'
 gem 'sass'
 gem 'coffee-script'
+gem 'eco'
 
 group :development do
   gem 'shotgun'
