@@ -1,6 +1,6 @@
 <h1>Hello From ECO Alex</h1>
 <ol>
   <% for i in [1..20]: %>
-    <li>List Item! <%= if i % 2 == 0 then @foo else @baz %></li>
+    <li>List Item! <%= if i % 2 == 0 then @odds else @evens %></li>
   <% end %>
 </ol>
