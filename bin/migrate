@@ -1,0 +1,2 @@
+#!/bin/bash
+sequel -m db/migrate sqlite://db/development.db
