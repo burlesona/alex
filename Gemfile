@@ -8,7 +8,10 @@ gem 'sprockets'
 gem 'sass'
 gem 'coffee-script'
 gem 'eco'
+gem 'sqlite3'
+gem 'sequel'
 
 group :development do
   gem 'shotgun'
+  gem 'pry'
 end
